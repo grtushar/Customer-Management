@@ -1,2 +1,3 @@
-# Spring-Practice
-This repository is for learning purpose. Here i will add some demo projects on Spring framework.
+# Customer-Management
+A learning purpose project using spring & angularjs framework.
+
