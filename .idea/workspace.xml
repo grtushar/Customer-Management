@@ -76,7 +76,7 @@
       <file leaf-file-name="CustomerDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/prime/CustomerDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0210696">
+            <state vertical-scroll-proportion="1.6363636">
               <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
               <folding>
                 <element signature="e#646#647#0" expanded="true" />
@@ -736,12 +736,12 @@
       <workItem from="1463930502709" duration="3582000" />
       <workItem from="1464011552448" duration="1872000" />
       <workItem from="1464374156579" duration="85000" />
-      <workItem from="1464417006917" duration="6564000" />
+      <workItem from="1464417006917" duration="7158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42518000" />
+    <option name="totallyTimeSpent" value="43112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -754,7 +754,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1299,7 +1299,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/prime/CustomerDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0210696">
+        <state vertical-scroll-proportion="1.6363636">
           <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
           <folding>
             <element signature="e#646#647#0" expanded="true" />
