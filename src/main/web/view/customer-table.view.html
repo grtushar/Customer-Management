@@ -1,0 +1,36 @@
+<h2>Customer List</h2>
+<button style="float: right;" type="button" class="btn btn-info" aria-label="Right Align" ng-click="toCreateCustomer()">
+   <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Create New Customer
+</button>
+</br>
+<table st-table="rowCollection" class="table table-hover table-striped table-bordered">
+   <thead>
+   <tr>
+      <td>Id</td>
+      <td>Name</td>
+      <td>Age</td>
+      <td>Action</td>
+   </tr>
+   </thead>
+   <tbody>
+
+   <tr ng-repeat="customer in customers" ng-click="showDetails(customer.id)" style="cursor: pointer; cursor: hand">
+      <td>{{ customer.id }}</td>
+      <td>{{ customer.name }}</td>
+      <td>{{ customer.age }}</td>
+      <td>
+         <button type="button" class="btn btn-default" aria-label="Right Align" ng-click="deleteCustomer(customer.id, $index); $event.stopPropagation();">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+         </button>
+      </td>
+   </tr>
+
+   </tbody>
+</table>
+
+
+<!--<script>-->
+   <!--$(document).ready(function(){-->
+      <!--$('#myTable').dataTable();-->
+   <!--});-->
+<!--</script>-->

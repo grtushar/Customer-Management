@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="customer-management">
+    <head>
+        <!--load bootstarp-->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <!--<link rel="icon" type="image/png" sizes="32x32" href="https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico">-->
+        <!--<meta http-equiv="refresh" content="2">-->
+
+        <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <script src="app.js"></script>
+
+        <!--contollers-->
+        <script src="app-root.controller.js"></script>
+        <script src="/controller/customer-table.controller.js"></script>
+        <script src="/controller/create-customer.controller.js"></script>
+        <script src="/controller/customer.controller.js"></script>
+
+        <!--services-->
+        <script src="/service/customer.service.js"></script>
+        <script src="/service/customer.rest.service.js"></script>
+
+        <title>Customer Management</title>
+    </head>
+
+    <body ng-controller="appRootController">
+        <div ui-view></div>
+    </body>
+</html>
